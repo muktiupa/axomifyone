@@ -31,17 +31,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Facebook className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.facebook.com/share/17MmL5oB84/",
       name: "Facebook"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      href: "#", 
+      href: "https://x.com/axomify_digital?t=YxKdoX7sUqTbIun6r7dCjg&s=09", 
       name: "Twitter"
     },
     {
       icon: <Instagram className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.instagram.com/axomifydigitalservice?igsh=MTB3b3Z5YmxwaGgzeQ==",
       name: "Instagram"
     },
     {

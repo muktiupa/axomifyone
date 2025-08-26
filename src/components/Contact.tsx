@@ -188,7 +188,7 @@ const Contact = () => {
                     <Button 
                       variant="outline" 
                       className="mt-4"
-                      onClick={() => window.open('https://maps.google.com/search/Axomify+Kathalguri', '_blank')}
+                      onClick={() => window.open('https://share.google/8qTJwZC5nCaVKhdqy', '_blank')}
                     >
                       View on Maps
                     </Button>
