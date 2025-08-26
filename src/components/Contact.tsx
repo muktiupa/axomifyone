@@ -39,26 +39,22 @@ const Contact = () => {
     {
       icon: <Facebook className="w-6 h-6" />,
       name: "Facebook",
-      href: "#",
-      color: "hover:text-blue-600"
+      href: "https://www.facebook.com/share/17MmL5oB84/",
     },
     {
       icon: <Twitter className="w-6 h-6" />,
       name: "Twitter", 
-      href: "#",
-      color: "hover:text-blue-400"
+      href: "https://x.com/axomify_digital?t=YxKdoX7sUqTbIun6r7dCjg&s=09",
     },
     {
       icon: <Instagram className="w-6 h-6" />,
       name: "Instagram",
-      href: "#",
-      color: "hover:text-pink-600"
+      href: "https://www.instagram.com/axomifydigitalservice?igsh=MTB3b3Z5YmxwaGgzeQ==",
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       name: "WhatsApp",
       href: "https://wa.me/919678979873",
-      color: "hover:text-green-600"
     }
   ];
 
@@ -169,7 +165,7 @@ const Contact = () => {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`p-3 rounded-full bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground transition-all duration-300 hover:scale-110 ${social.color}`}
+                      className="p-3 rounded-full bg-secondary hover:bg-axomify-yellow text-secondary-foreground hover:text-axomify-black transition-all duration-300 hover:scale-110"
                       aria-label={social.name}
                     >
                       {social.icon}
