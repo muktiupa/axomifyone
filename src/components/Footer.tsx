@@ -65,8 +65,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center shadow-yellow">
-                <span className="text-axomify-black font-bold text-2xl font-heading">A</span>
+              <div className="w-12 h-12 rounded-lg overflow-hidden shadow-yellow">
+                <img 
+                  src="/lovable-uploads/5fb7719c-8de5-4d0a-a4ba-0b3af22b4ff9.png" 
+                  alt="Axomify Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-2xl font-bold font-heading">Axomify</h3>
