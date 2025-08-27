@@ -1,37 +1,50 @@
 import { Button } from "@/components/ui/button";
 
 const Muktovihongo = () => {
+  const handleButtonClick = () => {
+    window.open('https://www.facebook.com/share/19gUk3MK2S/', '_blank');
+  };
+
   return (
     <section className="py-16 animate-fade-in" style={{ background: 'var(--gradient-muktovihongo)' }}>
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-8">
-          {/* Left Side - Logo */}
-          <div className="w-full lg:w-2/5 flex justify-center lg:justify-start">
+        <div className="flex flex-col items-center text-center gap-8">
+          {/* Logo with round white background */}
+          <div className="bg-white rounded-full p-4 shadow-lg">
             <img 
               src="/lovable-uploads/aebb10c1-05ac-49ec-9eb5-43d9f80ffef4.png"
               alt="Muktovihongo Logo"
-              className="max-w-[150px] w-full h-auto object-contain"
+              className="w-24 h-24 object-contain"
             />
           </div>
           
-          {/* Right Side - Content */}
-          <div className="w-full lg:w-3/5 text-center lg:text-left">
-            <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-              Muktovihongo – Arts & Entertainment
+          {/* Content */}
+          <div className="text-center">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+              Muktovihongo
             </h2>
             
-            <p className="text-white/90 text-md mb-6 leading-relaxed">
-              A creative platform by Axomify for arts, culture & entertainment.
+            <p className="text-white/90 text-lg mb-8 leading-relaxed">
+              An Arts & Entertainment Initiative by Axomify
             </p>
             
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white text-white bg-transparent hover:bg-white hover:text-purple-600 transition-all duration-300"
-              onClick={() => window.open('https://www.facebook.com/share/19gUk3MK2S/', '_blank')}
-            >
-              Explore Muktovihongo
-            </Button>
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                size="lg"
+                className="bg-white text-[hsl(var(--muktovihongo-purple))] hover:bg-[hsl(var(--muktovihongo-purple))] hover:text-white transition-all duration-300 rounded-lg font-medium"
+                onClick={handleButtonClick}
+              >
+                Follow Us
+              </Button>
+              <Button
+                size="lg"
+                className="bg-white text-[hsl(var(--muktovihongo-purple))] hover:bg-[hsl(var(--muktovihongo-purple))] hover:text-white transition-all duration-300 rounded-lg font-medium"
+                onClick={handleButtonClick}
+              >
+                Explore Muktovihongo
+              </Button>
+            </div>
           </div>
         </div>
       </div>

@@ -16,9 +16,9 @@ const Index = () => {
         <About />
         <Services />
         <Team />
+        <Muktovihongo />
         <Contact />
       </main>
-      <Muktovihongo />
       <Footer />
     </div>
   );
